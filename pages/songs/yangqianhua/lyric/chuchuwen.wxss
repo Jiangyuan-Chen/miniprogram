@@ -1,0 +1,21 @@
+/* pages/songs/yangqianhua/lyric/chuchuwen.wxss */
+view{
+  width: 750rpx;
+}
+
+page{
+  height:100%;
+  background-color: #b3d4db; 
+}
+
+.home{
+  margin: 20rpx;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.lyric{
+  white-space: pre-wrap;
+}

@@ -1,0 +1,9 @@
+<!--pages/songs/likeqin/likeqin.wxml-->
+<view class="home">
+  <view class="interval">
+    <view>
+      <view class="song" bindtap="yuebanxiaoyequ">月半小夜曲--李克勤</view>
+      <view class="line"></view>
+    </view> 
+  </view>
+</view>

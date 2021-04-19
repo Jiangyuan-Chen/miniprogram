@@ -1,0 +1,70 @@
+<!--pages/songs/chenyixun/lyric/lyric.wxml-->
+<view class="home">
+  <view class="title">富士山下</view>
+  <view>
+    <view>歌手：陈奕迅</view>
+    <view>作词：林夕</view>
+    <view>作曲：泽日生</view>
+    <van-button round type="default" custom-class="search-button" color="linear-gradient(to right, #4bb0ff, #6149f6)" bind:click="favorite">我喜欢</van-button>
+    <view>\n</view>
+  </view>
+  <view class="lyric">
+拦路雨偏似雪花 饮泣的你冻吗
+laan4 lou6 yu5 pin1 chi5 syut8 fa1 yam2 yap7 dik7 nei5 dung3 ma1
+这风褛我给你磨到有襟花
+je5 fung1 leui5/lau1 ngo5 kap7 nei5 mo4 dou3 yau5 kam1 fa1
+连掉了迹也不怕 怎么始终牵挂
+lin4 diu6 liu5 jik7 ya5 bat7 pa3 jam2 mo1 chi2 jung1 hin1 gwa3
+苦心选中今天想车你回家
+fu2 sam1 syun2 jung1 gam1 tin1 seung2 che1/geui1 nei5 wui4 ga1
+原谅我不再送花 伤口应要结疤
+yun4 leung6 ngo5 bat7 joi3 sung3 fa1 seung1 hau2 ying13 yiu3 git8 ba1
+花瓣铺满心里坟场才害怕
+fa1 faan6 pou1 mun5 sam1 leui5 fan4 cheung4 choi4 hoi6 pa3
+如若你非我不嫁 彼此终必火化
+yu4 yeuk9 nei5 fei1 ngo5 bat7 ga3 bei2 chi2 jung1 bit7 fo2 fa3
+一生一世等一天需要代价
+yat7 sang1/saang1 yat7 sai3 dang2 yat7 tin1 seui1 yiu3 doi6 ga3
+
+谁都只得那双手 靠拥抱亦难任你拥有
+seui4 dou1 ji2 dak7 na5 seung1 sau2 kaau3 yung2 pou5 yik9 naan4/naan6 yam6 nei5 yung2 yau5
+要拥有必先懂失去怎接受
+yiu3 yung2 yau5 bit7 sin1 dung2 sat7 heui3 jam2 jip8 sau6
+曾沿着雪路浪游 为何为好事泪流
+chang4 yun4 jeuk9/ syut8 lou6 long6 yau4 wai46 ho4 wai46 hou2 si6 leui6 lau4
+谁能凭爱意要富士山私有
+seui4 nang4 pang4 oi3 yi3 yiu3 fu3 si6 saan1 si1 yau5
+何不把悲哀感觉 假设是来自你虚构
+ho4 bat7 ba2 bei1 oi1 gam2 gok8/gaau3 ga2/ga3 chit8 si6 loi4 ji6 nei5 heui1 kau3/gau3
+试管里找不到它染污眼眸
+si3 gun2 leui5 jaau2 bat7 dou3 ta1 yim5 wu1 ngaan5 mau4
+前尘硬化像石头 随缘地抛下便逃走
+chin4 chan4 ngaang6 fa3 jeung6 sek9 tau4 cheui4 yun4 dei6 paau1 ha6 bin6 tou4 jau2
+我绝不罕有 往街里绕过一周
+ngo5 jyut9 bat7 hon2 yau5 wong5 gaai1 leui5 yiu2/yiu5 gwo3 yat7 jau1
+我便化乌有
+ngo5 bin6 fa3 wu1 yau5
+
+情人节不要说穿 只敢抚你发端
+ching4 yan4 jit8 bat7 yiu3 syut8 chyun1 ji2 gam2 fu2 nei5 faat8 dyun1
+这种姿态可会令你更心酸
+je5 jung2 ji1 taai3 ho2 wui ling6 nei5 gang13 sam1 syun1
+留在汽车里取暖 应该怎么规劝
+lau4 joi6 hei3 che1/geui1 leui5 cheui2 nyun5 ying13 goi1 jam2 mo1 kwai1 hyun3
+怎么可以将手腕忍痛划损
+jam2 mo1 ho2 yi5 jeung1 sau2 wun2 yan2 tung3 waak9 syun2
+人活到几岁算短 失恋只有更短
+yan4 wut9 dou3 gei2 seui3 syun3 dyun2 sat7 lyun2 ji2 yau5 gang13 dyun2
+归家需要几里路谁能预算
+gwai1 ga1 seui1 yiu3 gei2 lei5 lou6 seui4 nang4 yu6 syun3
+忘掉我跟你恩怨 樱花开了几转
+mong4 diu6 ngo5 gan1 nei5 yan1 yun3 ying1 fa1 hoi1 liu5 gei2 jyun2/jyun3
+东京之旅一早比一世遥远
+dung1 ging1 ji1 leui5 yat7 jou2 bei2 yat7 sai3 yiu4 yun5
+
+你还嫌不够 我把这陈年风褛
+nei5 waan4 yim4 bat7 gau3 ngo5 ba2 je5 chan4 nin4 fung1 leui5/lau1
+送赠你解咒
+sung3 jang6 nei5 gaai2 jau3
+  </view>
+</view>

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/songs/chenyixun/lyric/fushishanxia", 
+    
+    
+    
+    "pages/home/home",
+    "pages/search/search",
+    "pages/category/category",
+    "pages/me/me",
+    "pages/songs/chenyixun/chenyixun",
+    "pages/songs/likeqin/likeqin",
+    "pages/songs/yangqianhua/yangqianhua",
+    
+    "pages/songs/chenyixun/lyric/fukua",
+    "pages/songs/chenyixun/lyric/wutiaojian",
+    "pages/songs/likeqin/lyric/yuebanxiaoyequ",
+    "pages/songs/yangqianhua/lyric/chuchuwen",
+    "pages/me/aboutme/aboutme",
+    "pages/me/myfavorite/myfavorite"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "阿源的粤语小课堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/ic_menu_choice_nor.png",
+        "selectedIconPath": "images/ic_menu_choice_pressed.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/ic_menu_sort_nor.png",
+        "selectedIconPath": "images/ic_menu_sort_pressed.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "images/ic_menu_me_nor.png",
+        "selectedIconPath": "images/ic_menu_me_pressed.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

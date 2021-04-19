@@ -1,0 +1,127 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <!-- <view class="title">
+    <text>阿源的粤语小课堂</text>
+  </view> -->
+
+  <van-search disabled field-class="my-search" bindtap="suo"
+  value="{{ value }}"
+  placeholder="请输入你要搜索的歌曲名"
+  shape="round"
+  background="transparent"
+  
+  />
+
+
+<view class="lunbotu">
+  <swiper indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image class="swiper_img" src="/images/lunbotu-1.jpeg" />
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper_img" src="/images/lunbotu-2.jpeg" />
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper_img" src="/images/lunbotu-3.jpg" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<van-grid square clickable border="{{false}}">
+  <van-grid-item content-class="grid" text-class="grid-text" icon="friends" text="歌手" link-type="reLaunch" url="/pages/category/category" />
+  <van-grid-item content-class="grid" text-class="grid-text" icon="hot" text="排行榜" link-type="reLaunch" url="/pages/category/category" />
+  <van-grid-item content-class="grid" text-class="grid-text" icon="bars" text="歌曲分类" link-type="reLaunch" url="/pages/category/category" />
+  <van-grid-item content-class="grid" text-class="grid-text" icon="audio" text="电台" link-type="reLaunch" url="/pages/category/category" />
+</van-grid>
+
+
+  <view class="h1">
+    <text>精选歌手</text>
+  </view>
+
+  <view class="tile">
+    <view class="singer" bindtap="chenyixun">
+      <image class="abc view-round-angle" src="/images/Eason.jpg"/>
+      <text>陈奕迅</text>
+    </view>
+    <view class="singer" bindtap="likeqin">
+      <image class="abc view-round-angle" src="/images/likeqin.jpg" />
+      <text>李克勤</text>
+    </view>
+    <view class="singer" bindtap="yangqianhua">
+      <image class="abc view-round-angle" src="/images/yangqianye.jpg" />
+      <text>杨千嬅</text>
+    </view>
+  </view>
+
+  <view class="h1">
+    <text>音乐广场</text>
+  </view>
+  <van-tabs active="{{ active }}" type="card">
+    <van-tab title="新歌">
+      <view class="recommend" bindtap="fushishanxia">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/fushishanxia.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="富士山下" value="2021" size="large" label="陈奕迅yyds！" />
+      </view>
+      <view class="recommend" bindtap="yuebanxiaoyequ">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/yuebanxiaoyequ.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="月半小夜曲" value="916" size="large" label="李克勤真不戳！" />
+      </view>
+      <view class="recommend" bindtap="chuchuwen">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/chuchuwen.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="杨千嬅" value="819" size="large" label="杨千嬅也挺好！" />
+      </view>
+    </van-tab>
+    
+    <van-tab title="流行歌手">
+      <view class="recommend" bindtap="chenyixun">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/Eason.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="陈奕迅" value="2021" size="large" label="陈奕迅yyds！" />
+      </view>
+      <view class="recommend" bindtap="likeqin">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/likeqin.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="李克勤" value="916" size="large" label="李克勤真不戳！" />
+      </view>
+      <view class="recommend" bindtap="yangqianhua">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/yangqianye.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="杨千嬅" value="819" size="large" label="杨千嬅也挺好！" />
+      </view>
+    </van-tab>
+    
+    <van-tab title="数字专辑">
+      <view class="recommend" bindtap="fushishanxia">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/fushishanxia.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="富士山下" value="2021" size="large" label="陈奕迅yyds！" />
+      </view>
+      <view class="recommend" bindtap="yuebanxiaoyequ">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/yuebanxiaoyequ.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="月半小夜曲" value="916" size="large" label="李克勤真不戳！" />
+      </view>
+      <view class="recommend" bindtap="chuchuwen">
+        <view class="recommend-image-position">
+          <image class="recommend-image" src="/images/chuchuwen.jpg"></image>
+        </view>
+        <van-cell custom-class="cell" title="杨千嬅" value="819" size="large" label="杨千嬅也挺好！" />
+      </view>
+    </van-tab>
+  
+  </van-tabs>
+
+
+</view>

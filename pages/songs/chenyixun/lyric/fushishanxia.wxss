@@ -1,0 +1,29 @@
+/* pages/songs/chenyixun/lyric/fushishanxia.wxss */
+view{
+  width: 750rpx;
+}
+
+page{
+  height:100%;
+  background-color: #b3d4db; 
+}
+
+.home{
+  padding: 10rpx;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.lyric{
+  white-space: pre-wrap;
+}
+
+.search-button{
+  width: 148rpx;
+  height: 40rpx !important;
+  float: right !important;
+  position:relative;
+  left: -30rpx;
+}

@@ -1,0 +1,35 @@
+/* pages/songs/chenyixun/chenyixun.wxss */
+view{
+  width: 750rpx;
+}
+
+page{
+  height:100%;
+  background-color: #b3d4db; 
+}
+
+.interval{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15rpx;
+}
+
+.line {
+  width: 96%;
+  height: 2rpx;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea);
+  text-align: center;
+}
+
+.song{
+  margin: 15rpx;
+}
+
+
+
+
+
+
+
+

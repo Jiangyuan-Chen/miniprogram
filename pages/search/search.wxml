@@ -1,0 +1,51 @@
+<!--pages/search/search.wxml-->
+<view class="">
+  <van-search field-class="my-search"
+  value="{{ value }}"
+  placeholder="请输入你要搜索的歌曲名"
+  shape="round"
+  background="transparent"
+  
+  />
+  <view class="block">
+    <view class="h1">
+      <text>推荐搜索</text>
+    </view>
+
+    <van-row gutter="20" custom-class="text_sousuo">
+      <van-col span="7"><van-button round  type="default" custom-class="search-button" bind:click="chenyixun">陈奕迅</van-button></van-col>
+      <van-col span="7" ><van-button round  type="default" custom-class="search-button" bind:click="likeqin">李克勤</van-button></van-col>
+      <van-col span="7" ><van-button round  type="default" custom-class="search-button" bind:click="yangqianhua">杨千嬅</van-button></van-col>
+    </van-row>
+  </view>
+
+  <view class="block">
+    <view class="h1">
+      <text>热门推荐</text>
+    </view>
+    
+    <view class="recommend">
+      <view class="index">1</view>
+      <van-cell custom-class="cell" title="富士山下" value="2021" size="large" label="陈奕迅yyds！" />
+    </view>
+    <view class="recommend">
+      <view class="index">2</view>
+      <van-cell custom-class="cell" title="月半小夜曲" value="916" size="large" label="李克勤真不戳！" />
+    </view>
+    <view class="recommend">
+      <view class="index">3</view>
+      <van-cell custom-class="cell" title="杨千嬅" value="819" size="large" label="杨千嬅也挺好！" />
+    </view>
+  
+  
+  
+  
+  
+  
+  
+  </view>
+
+
+
+
+</view>

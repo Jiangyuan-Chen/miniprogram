@@ -1,0 +1,28 @@
+<!--pages/category/category.wxml-->
+<view class="home">
+  <view class="h1">
+    <text>男歌手</text>
+  </view>
+  <view class="tile">
+    <view class="singer" bindtap="chenyixun">
+        <image class="abc" src="/images/Eason.jpg"/>
+        <text>陈奕迅</text>
+    </view>
+    <view class="singer" bindtap="likeqin">
+      <image class="abc" src="/images/likeqin.jpg" />
+      <text>李克勤</text>
+    </view>
+  </view>
+
+  <view class="h1">
+    <text>女歌手</text>
+  </view>
+  <view class="tile">
+    <view class="singer" bindtap="yangqianhua">
+      <image class="abc" src="/images/yangqianye.jpg" />
+      <text>杨千嬅</text>
+    </view>
+  </view>
+
+
+</view>

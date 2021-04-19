@@ -1,0 +1,125 @@
+/* pages/me/me.wxss */
+/* pages/category/category.wxss */
+view{
+  width: 750rpx;
+}
+
+page{
+  height:100%;
+  background-color: #b3d4db; 
+}
+
+.abc{
+  width:150rpx;
+  height:150rpx;
+}
+
+.home{
+  
+}
+
+.title{
+  color:#000000;
+  font-size: 50rpx;
+  text-align: center;
+  padding: 5%;
+}
+
+.h1{
+  color:#000000;
+  font-size: 35rpx;
+  text-align: left;
+  padding: 5%;
+}
+
+.tile{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.singer{
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.view-inline{
+  display: inline;
+}
+
+.lizi{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.lunbotu{
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.swiper_img{
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.icon_area{
+  background-color: darkcyan;
+  height: 400rpx;
+}
+
+.box_item{
+  width: 150rpx;
+  height: 200rpx;
+  float: left;
+}
+
+.box_img{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.box_txt{
+  width: 150rpx;
+  text-align: center;
+}
+
+.interval{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15rpx;
+}
+
+.line {
+  width: 96%;
+  height: 2rpx;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea);
+  text-align: center;
+}
+
+.margin{
+  margin: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.kf_button{
+  background-color: rgba(255, 255, 255, 0);
+
+ }
+
+ .kf_button::after{
+ 
+ }
+
+
+
+
+
+
+

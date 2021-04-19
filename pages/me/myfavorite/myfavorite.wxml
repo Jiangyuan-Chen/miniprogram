@@ -1,0 +1,6 @@
+<!--pages/me/myfavorite/myfavorite.wxml-->
+<view bindtap="1">11111111111</view>
+<view bindtap="2">22222222222</view>
+<view bindtap="3">33333333333</view>
+<view bindtap="4">44444444444</view>
+

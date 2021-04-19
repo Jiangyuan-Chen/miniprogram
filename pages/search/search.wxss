@@ -1,0 +1,60 @@
+/* pages/search/search.wxss */
+page{
+  width: 750rpx;
+  height:100%;
+  background-color: #b3d4db; 
+}
+
+.block{
+  padding: 8% 0% 3% 3%;
+  
+}
+
+.my-search{
+  width: 620rpx !important;
+}
+
+.search-button{
+  width: 148rpx;
+  height: 40rpx !important;
+  float: left !important;
+}
+
+.h1{
+  color:#000000;
+  font-size: 35rpx;
+  
+  padding: 0% 5% 3% 2%;
+}
+
+.text_sousuo{
+  padding: 0% 0% 0% 2%;
+  float: left;
+}
+
+.recommend{
+  
+  display: flex;
+  
+}
+
+.index{
+  font-size: 50rpx;
+  font-family: "Microsoft Yahei";
+  display: flex;    /*设置显示样式*/
+  align-items: center;    /*垂直居中*/
+
+
+}
+
+.cell{
+  
+  width: 680rpx !important;
+  background-color: transparent !important;
+  
+  
+  
+  
+
+  
+}

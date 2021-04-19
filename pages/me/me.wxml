@@ -1,0 +1,19 @@
+<!--pages/me/me.wxml-->
+<view>
+  <view class="interval">
+    <view>
+      <view class="margin" bindtap="aboutme">关于我</view>
+      <view class="line"></view>
+    </view> 
+    <view>
+      <button class="kf_button" open-type="contact" session-from="weapp">联系我</button>
+      <view class="line"></view>
+    </view>
+    <view>
+      <view class="margin" bindtap="aboutme">我的收藏</view>
+      <view class="line"></view>
+    </view> 
+
+  </view>
+</view>
+

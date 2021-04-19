@@ -1,0 +1,37 @@
+<!--pages/songs/chenyixun/chenyixun.wxml-->
+<view class="home">
+  <view class="interval">
+    <view>
+      <view class="song" bindtap="fushishanxia">富士山下--陈奕迅</view>
+      <view class="line"></view>
+    </view> 
+    <view>
+      <view class="song" bindtap="fukua">浮夸--陈奕迅</view>
+      <view class="line"></view>
+    </view>
+    <view>
+      <view class="song" bindtap="wutiaojian">无条件--陈奕迅</view>
+      <view class="line"></view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

@@ -1,0 +1,9 @@
+<!--pages/songs/yangqianhua/yangqianhua.wxml-->
+<view class="home">
+  <view class="interval">
+    <view>
+      <view class="song" bindtap="chuchuwen">处处吻--杨千嬅</view>
+      <view class="line"></view>
+    </view> 
+  </view>
+</view>
